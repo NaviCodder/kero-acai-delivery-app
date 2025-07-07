@@ -56,7 +56,7 @@ const Hero = () => {
             <div className="flex items-center space-x-3 bg-white/10 backdrop-blur-sm rounded-2xl px-6 py-3">
               <Truck className="w-6 h-6 text-yellow-300" />
               <div className="text-left">
-                <div className="font-bold text-yellow-300">Frete Grátis</div>
+                <div className="font-bold text-yellow-300">Entrega Grátis</div>
                 <div className="text-sm text-purple-200">acima de R$ 25</div>
               </div>
             </div>
