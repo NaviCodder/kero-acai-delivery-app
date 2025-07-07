@@ -125,4 +125,35 @@ All colors MUST be HSL.
   .hover-acai:hover {
     background-color: rgba(74, 31, 58, 0.05);
   }
+
+  /* Logo específico - remove background e otimiza */
+  img[alt*="Kero Açaí Logo"] {
+    filter: drop-shadow(0 4px 8px rgba(139, 30, 119, 0.3));
+  }
+
+  /* Animação de pulsação suave para CTAs */
+  .animate-pulse-soft {
+    animation: pulse-soft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse-soft {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.9;
+      transform: scale(1.02);
+    }
+  }
+
+  /* Scroll suave para mobile */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }

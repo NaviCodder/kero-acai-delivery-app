@@ -9,12 +9,16 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 gradient-acai rounded-2xl flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-2xl">A</span>
+              <div className="w-16 h-16 relative flex items-center justify-center">
+                <img 
+                  src="/lovable-uploads/734fe34d-c4ac-487b-9929-d25d8681f439.png" 
+                  alt="Kero Açaí Logo" 
+                  className="w-full h-full object-contain drop-shadow-lg hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-gradient">Açaí Express</h1>
-                <p className="text-xs text-acai-600/70">Sabor autêntico, entrega rápida</p>
+                <h1 className="text-2xl font-bold text-gradient">Kero Açaí</h1>
+                <p className="text-xs text-acai-600/70">Delivery</p>
               </div>
             </div>
           </div>

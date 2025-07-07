@@ -61,17 +61,24 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
             <div className="space-y-4">
               <div className="flex items-center justify-center md:justify-start space-x-3">
-                <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">A</span>
+                <div className="w-12 h-12 relative">
+                  <img 
+                    src="/lovable-uploads/734fe34d-c4ac-487b-9929-d25d8681f439.png" 
+                    alt="Kero Açaí Logo" 
+                    className="w-full h-full object-contain opacity-90"
+                  />
                 </div>
-                <h3 className="font-bold text-2xl">Açaí Express</h3>
+                <div>
+                  <h3 className="font-bold text-2xl">Kero Açaí</h3>
+                  <p className="text-sm text-purple-200">Delivery</p>
+                </div>
               </div>
-              <p className="text-purple-200">O açaí mais autêntico da cidade com entrega rápida e ingredientes frescos.</p>
+              <p className="text-purple-200">O açaí mais saboroso da cidade com entrega rápida e ingredientes frescos.</p>
             </div>
             <div className="space-y-3">
               <h4 className="font-bold text-lg text-white mb-4">Contato</h4>
               <p className="text-purple-200">📱 (11) 99999-9999</p>
-              <p className="text-purple-200">📧 contato@acaiexpress.com</p>
+              <p className="text-purple-200">📧 contato@keroacai.com</p>
               <p className="text-purple-200">📍 São Paulo - SP</p>
             </div>
             <div className="space-y-3">
@@ -82,7 +89,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-white/20 mt-12 pt-8 text-center text-purple-200">
-            <p>&copy; 2024 Açaí Express. Feito com ❤️ para os amantes de açaí.</p>
+            <p>&copy; 2024 Kero Açaí Delivery. Feito com ❤️ para os amantes de açaí.</p>
           </div>
         </div>
       </footer>
