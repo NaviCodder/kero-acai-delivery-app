@@ -18,7 +18,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 262 83% 58%;
+    --primary: 320 45% 25%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -27,7 +27,7 @@ All colors MUST be HSL.
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 262 83% 58%;
+    --accent: 320 45% 25%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 84.2% 60.2%;
@@ -35,7 +35,7 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 262 83% 58%;
+    --ring: 320 45% 25%;
 
     --radius: 1rem;
 
@@ -56,7 +56,7 @@ All colors MUST be HSL.
     --card-foreground: 210 40% 98%;
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
-    --primary: 262 83% 58%;
+    --primary: 320 45% 25%;
     --primary-foreground: 222.2 47.4% 11.2%;
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -86,19 +86,43 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-gradient-to-br from-purple-50 to-pink-50 text-foreground font-sans;
+    @apply bg-gradient-to-br from-purple-50 via-white to-pink-50 text-foreground font-sans;
   }
 }
 
 @layer utilities {
   .gradient-acai {
-    background: linear-gradient(135deg, #a855f7 0%, #e879f9 50%, #f97316 100%);
+    background: linear-gradient(135deg, #4a1f3a 0%, #6b2c5c 25%, #8b1e77 50%, #a855f7 75%, #c084fc 100%);
+  }
+  
+  .gradient-acai-light {
+    background: linear-gradient(135deg, rgba(74, 31, 58, 0.1) 0%, rgba(107, 44, 92, 0.15) 50%, rgba(168, 85, 247, 0.2) 100%);
   }
   
   .text-gradient {
-    background: linear-gradient(135deg, #a855f7, #e879f9);
+    background: linear-gradient(135deg, #4a1f3a, #8b1e77, #a855f7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+
+  .acai-purple {
+    color: #4a1f3a;
+  }
+
+  .bg-acai-dark {
+    background-color: #4a1f3a;
+  }
+
+  .bg-acai-medium {
+    background-color: #6b2c5c;
+  }
+
+  .border-acai {
+    border-color: #8b1e77;
+  }
+
+  .hover-acai:hover {
+    background-color: rgba(74, 31, 58, 0.05);
   }
 }
