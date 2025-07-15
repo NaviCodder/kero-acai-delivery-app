@@ -1,4 +1,3 @@
-
 import { ShoppingCart, MapPin, Clock, Menu as MenuIcon, X as CloseIcon, Search as SearchIcon, Instagram, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
