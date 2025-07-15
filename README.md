@@ -1,8 +1,20 @@
-# Welcome to your Lovable project
+# Açaí Express Shop Online
 
-## Project info
+## 📋 Sobre o Projeto
 
-**URL**: https://lovable.dev/projects/c3a8ac60-4959-48a2-881a-252b186a3229
+**Açaí Express Shop Online** é uma aplicação web moderna desenvolvida para a loja fictícia "Kero Açaí", oferecendo uma experiência de usuário intuitiva e responsiva para visualização de produtos de açaí.
+
+**URL do Projeto**: https://lovable.dev/projects/c3a8ac60-4959-48a2-881a-252b186a3229
+
+## 📚 Documentação
+
+- **[Documentação Técnica](DOCUMENTACAO_TECNICA.md)** - Documentação completa do projeto
+- **[Changelog](CHANGELOG.md)** - Histórico de versões e mudanças
+
+## 👨‍💻 Autor
+
+**Desenvolvedor:** Diego Romero  
+**Data:** Dezembro 2024
 
 ## How can I edit this code?
 

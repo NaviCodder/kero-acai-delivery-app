@@ -21,8 +21,8 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50">
       <Header />
       <Hero />
-      
-      <main className="container mx-auto px-4 py-16">
+      <main className="container mx-auto px-4 pt-28 pb-16">
+        {/* pt-28 para garantir espaçamento abaixo do header fixo em mobile */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-acai-800 mb-6">
             Nosso <span className="text-gradient">Cardápio</span>
